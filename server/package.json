@@ -1,0 +1,19 @@
+{
+  "name": "node-react-sample",
+  "version": "0.0.1",
+  "description": "Sample node.js app which serves a React component.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ 
+    "node",
+    "react"
+  ],
+  "author": "Robert Gravina",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
