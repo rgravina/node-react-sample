@@ -4,16 +4,20 @@
   "description": "Sample node.js app which serves a React component.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "tsc && node dist/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [ 
+  "keywords": [
     "node",
     "react"
   ],
   "author": "Robert Gravina",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^13.7.7",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
   }
 }
